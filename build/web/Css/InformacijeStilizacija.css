@@ -1,0 +1,26 @@
+#back4 
+{ 
+    background: url(../Slike/informacije.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#info 
+{
+    border-radius: 10px;
+    border: 2px solid seagreen;
+    background: white;
+    width: 310px;
+    height: 340px;
+    color: black;
+}
+#log
+{
+     border-radius: 10px;
+    border: 2px solid seagreen;
+    background: white;
+    width: 200px;
+    height: 70px;
+    color: black;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 3, 2017 12:11:43 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entity.Model" table="model" catalog="baza_automobila" optimistic-lock="version">
+        <id name="modelId" type="java.lang.Integer">
+            <column name="model_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="proizvodjac" class="Entity.Proizvodjac" fetch="select">
+            <column name="proizvodjac_id" not-null="true" />
+        </many-to-one>
+        <property name="modelIme" type="string">
+            <column name="model_ime" length="45" not-null="true" />
+        </property>
+        <set name="oglases" table="oglas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="model_id" not-null="true" />
+            </key>
+            <one-to-many class="Entity.Oglas" />
+        </set>
+    </class>
+</hibernate-mapping>

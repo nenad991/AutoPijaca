@@ -1,0 +1,18 @@
+#back5 
+{ 
+    background: url(../Slike/dodajOglas.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#dodajOglas 
+{
+    border-radius: 10px;
+    border: 2px solid seagreen;
+    background: white;
+    width: 500px;
+    height: 510px;
+    color: black;
+}
+

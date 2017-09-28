@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/OglasInformacije.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/PocetnaStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Servleti/AdminServlet.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/InformacijeStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/RegistarStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/OglasPretraga.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/KorisnikInformacije.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Servleti/RegistarServlet.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Servleti/PocetnaServlet.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Oglasi.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/oglasInformacijeUlogovan.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/MojiOglasi.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/JS/JsPocetna.js</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/OglasDao.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Onama.html</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Entity/Korisnik.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/HibernateUtil.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Servleti/PromenaServlet.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/JS/JsIndex.js</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/navBarStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/oglasSortiranjeUlogovan.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/MetodeTabelaDao.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/index.html</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/IndexStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Entity/Boja.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/oglasSortiranje.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/KorisnikDao.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Pocetna.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/logout.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/OglasiInformacijeStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/ProizvodjacDao.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/oglasUlogovan.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Servleti/DodajOglasServlet.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/DodajOglasStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Css/MojiOglasiStilizacija.css</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/src/java/Dao/AdminDao.java</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/DodajOglas.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/AdminStranica.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/oglasPretragaUlogovan.jsp</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/JS/JsDodajOglas.js</file>
+            <file>file:/C:/Users/NenadIvana/Documents/NetBeansProjects/AutoPijaca/web/Register.jsp</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,36 @@
+<html id="back">
+    <head>
+        <title>Auto pijaca pocetna</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Css/IndexStilizacija.css">
+        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+        <script src="JS/JsIndex.js" ></script>
+    </head>
+    <body>
+        <div class='fadein'>
+            <p align="center"><a href="index.html" id="link">Auto Pijaca-"Polovnjaci"</a></p>
+            <div id="mySidenav" class="sidenav">
+                <a href="Oglasi.jsp" id="galerija" >Oglasi</a>
+                <a href="Onama.html" id="onama">O nama</a>
+                <a href="#" id="login">Ulogujte se</a>
+                <a href="Register.jsp" id="contact">Registrujte se</a>
+            </div>
+            <div id="avatar" style="display: none;">
+                <form name="forma" method="post" action="PocetnaServlet">
+                    <table class="table1">
+                        <tr>
+                            <td><input type="text" name="korime" placeholder="Unesite korisnicko ime" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="sifra" placeholder="Unesite sifru" required></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Prijava"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

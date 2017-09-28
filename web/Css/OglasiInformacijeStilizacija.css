@@ -1,0 +1,21 @@
+#back6 
+{ 
+    background: url(../Slike/mojiOglasi.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#oglas p 
+{
+    border-radius: 10px;
+    border: 2px solid seagreen;
+    background: white;
+    line-height: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-align: right;
+    width: 1050px;
+    height: 600px;
+    color: black;
+}

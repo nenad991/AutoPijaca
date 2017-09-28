@@ -1,0 +1,23 @@
+#back3
+{ 
+    background: url(../Slike/registracija.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#register
+{
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 2px solid seagreen;
+    background: white;
+    width: 320px;
+    height: 360px;
+    color: black;
+}
+a 
+{
+    text-decoration:none;
+    color:blue;
+}

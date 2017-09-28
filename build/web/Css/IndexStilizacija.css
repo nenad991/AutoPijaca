@@ -1,0 +1,80 @@
+#link
+{
+    font-style: italic;
+    font-size: 30px;
+    color: lightseagreen;
+}
+a
+{
+    text-decoration:none;
+    color:blue;
+}
+#back 
+{ 
+    background: url(../Slike/index.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#back7 
+{ 
+    background: url(../Slike/onama.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#mySidenav a
+{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover 
+{
+    left: 0;
+}
+#galerija
+{
+    top: 20px;
+    background-color: forestgreen;
+}
+#onama 
+{
+    top: 80px;
+    background-color: crimson;
+}
+#login
+{
+    top: 140px;
+    background-color: royalblue;
+}
+#contact
+{
+    top: 200px;
+    background-color: grey;
+}
+#avatar
+{
+    background: royalblue;
+    opacity: 0.8;
+    align-items: center;
+    position: absolute; top: 140px; left: 130px; height: 10%;
+    width:180px;
+    height:150px;
+    border-radius: 10px;
+}
+.table1,tr,td
+{
+    margin-left:auto; 
+    margin-top: 40px;
+    margin-right:1%;
+    padding-top: auto;
+}

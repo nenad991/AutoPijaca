@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 3, 2017 12:11:43 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entity.Oglas" table="oglas" catalog="baza_automobila" optimistic-lock="version">
+        <id name="oglasId" type="java.lang.Integer">
+            <column name="oglas_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="boja" class="Entity.Boja" fetch="select">
+            <column name="boja_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="brojSedista" class="Entity.BrojSedista" fetch="select">
+            <column name="broj_sedista_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="brojVrata" class="Entity.BrojVrata" fetch="select">
+            <column name="broj_vrata_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="emisionaKlasaMotora" class="Entity.EmisionaKlasaMotora" fetch="select">
+            <column name="emisiona_klasa_motora_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="godinaProizvodnje" class="Entity.GodinaProizvodnje" fetch="select">
+            <column name="godina_proizvodnje_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="gorivo" class="Entity.Gorivo" fetch="select">
+            <column name="gorivo_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="karoserija" class="Entity.Karoserija" fetch="select">
+            <column name="karoserija_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="kilometraza" class="Entity.Kilometraza" fetch="select">
+            <column name="kilometraza_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="klima" class="Entity.Klima" fetch="select">
+            <column name="klima_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="korisnik" class="Entity.Korisnik" fetch="select">
+            <column name="korisnik_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="kubikaza" class="Entity.Kubikaza" fetch="select">
+            <column name="kubikaza_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="menjac" class="Entity.Menjac" fetch="select">
+            <column name="menjac_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="model" class="Entity.Model" fetch="select">
+            <column name="model_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="ostecenje" class="Entity.Ostecenje" fetch="select">
+            <column name="ostecenje_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="pogon" class="Entity.Pogon" fetch="select">
+            <column name="pogon_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="porekloVozila" class="Entity.PorekloVozila" fetch="select">
+            <column name="poreklo_vozila_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="proizvodjac" class="Entity.Proizvodjac" fetch="select">
+            <column name="proizvodjac_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="registrovanDo" class="Entity.RegistrovanDo" fetch="select">
+            <column name="registrovan_do_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="snagaKs" class="Entity.SnagaKs" fetch="select">
+            <column name="snaga_ks_id" not-null="true" />
+        </many-to-one>
+        <many-to-one name="stranaVolana" class="Entity.StranaVolana" fetch="select">
+            <column name="strana_volana_id" not-null="true" />
+        </many-to-one>
+        <property name="telefonProdavca" type="string">
+            <column name="telefon_prodavca" length="45" not-null="true" />
+        </property>
+        <property name="cena" type="int">
+            <column name="cena" not-null="true" />
+        </property>
+        <property name="slika" type="string">
+            <column name="slika" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>
